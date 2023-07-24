@@ -11,14 +11,13 @@ class MyComponent extends React.Component {
         ],
     };
 
-    handleAddNewUser = (newUser) => {
+    handleAddNewUser = (userObj) => {
         this.setState({
-            listUsers: [newUser, ...this.state.listUsers],
+            listUsers: [userObj, ...this.state.listUsers],
         });
     };
 
     render() {
-        const myInfor = ["ab", "c", "c"];
         // DRY: Don't Repeat Yourself
         return (
             <div>
