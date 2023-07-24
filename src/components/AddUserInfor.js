@@ -32,7 +32,8 @@ class AddUserInfor extends React.Component {
     render() {
         return (
             <div>
-                My name is {this.state.name} and I'm from {this.state.age}
+                My name is {this.state.name || "Marcus"} and I'm from
+                {this.state.age || "16"}
                 <form onSubmit={(event) => this.handleOnSubmit(event)}>
                     <input
                         value={this.state.name}
