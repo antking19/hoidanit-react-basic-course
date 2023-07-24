@@ -5,8 +5,8 @@ import DisplayInfor from "./DisplayInfor";
 class MyComponent extends React.Component {
     state = {
         listUsers: [
-            { id: 1, name: "Kien Cuong", age: "33" },
-            { id: 2, name: "Marcus Cheung", age: "32" },
+            { id: 1, name: "Kien Cuong", age: "15" },
+            { id: 2, name: "Marcus Cheung", age: "26" },
             { id: 3, name: "Cuong Truong", age: "31" },
         ],
     };
