@@ -49,20 +49,21 @@ const SideBar = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
                     <Menu iconShape="circle">
                         <MenuItem
                             icon={<FaTachometerAlt />}
-                            suffix={<span className="badge red">new</span>}
+                            // suffix={<span className="badge red">new</span>}
                         >
-                            dashboard
+                            Dashboard
                         </MenuItem>
-                        <MenuItem icon={<FaGem />}> components</MenuItem>
                     </Menu>
                     <Menu iconShape="circle">
                         <SubMenu
-                            suffix={<span className="badge yellow">3</span>}
-                            icon={<FaRegLaughWink />}
+                            // suffix={<span className="badge yellow">3</span>}
+                            // icon={<FaRegLaughWink />}
+                            icon={<FaGem />}
+                            title="Features"
                         >
-                            <MenuItem>1</MenuItem>
-                            <MenuItem>2</MenuItem>
-                            <MenuItem>3</MenuItem>
+                            <MenuItem>Quản Lý Users</MenuItem>
+                            <MenuItem>Quản lý Bài Quiz</MenuItem>
+                            <MenuItem>Quản lý Câu Hỏi</MenuItem>
                         </SubMenu>
                     </Menu>
                 </SidebarContent>
@@ -80,7 +81,6 @@ const SideBar = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
                             className="sidebar-btn"
                             rel="noopener noreferrer"
                         >
-                            <FaGithub />
                             <span
                                 style={{
                                     whiteSpace: "nowrap",
@@ -88,7 +88,8 @@ const SideBar = ({ image, collapsed, rtl, toggled, handleToggleSidebar }) => {
                                     overflow: "hidden",
                                 }}
                             >
-                                viewSource
+                                <FaGithub />
+                                Hoi Dan IT
                             </span>
                         </a>
                     </div>
