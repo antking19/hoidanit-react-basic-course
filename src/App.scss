@@ -10,10 +10,23 @@ body {
 
 .app-container {
     .header-container {
-        .navbar-nav {
+        .navbar {
+            padding: 20px;
+
             .nav-link {
                 &.active {
                     color: #00bfff;
+                }
+            }
+
+            @media (min-width: 1400px) {
+                .container,
+                .container-lg,
+                .container-md,
+                .container-sm,
+                .container-xl,
+                .container-xxl {
+                    max-width: 1600px;
                 }
             }
         }
