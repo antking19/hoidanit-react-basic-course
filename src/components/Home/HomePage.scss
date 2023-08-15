@@ -1,0 +1,33 @@
+.homepage-container {
+    width: 1370px;
+    padding: 64px 0;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    column-gap: 30px;
+
+    .video-container {
+        video {
+            width: 692px;
+        }
+    }
+
+    .homepage-content {
+        h1 {
+            &.homepage-title {
+                font-size: 80px;
+                line-height: 1.2;
+                font-weight: normal;
+            }
+        }
+
+        h5 {
+            &.homepage-text {
+                margin: 40px 0;
+                line-height: 1.8;
+                font-weight: normal;
+                font-size: 24px;
+            }
+        }
+    }
+}

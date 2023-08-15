@@ -1,0 +1,19 @@
+.add-new-user {
+    .preview-image {
+        height: 250px;
+        border: 1px dashed #ccc;
+        border-radius: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        span {
+            color: #ccc;
+        }
+
+        img {
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
